@@ -26,7 +26,7 @@ def output_vowels(word):
             continue
         elif letter == "u":
             vowels.append(letter)
-    print("Vowels:", end=" ")
+    print(f"Vowels:", end=" ")
     for vowel in vowels:
         print(f"{vowel},", end=" ")
 
